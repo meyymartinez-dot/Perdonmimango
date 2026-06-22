@@ -3,120 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Para el amor de mi vida ❤️</title>
+<title>Para Ti ❤️</title>
 
 <style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family: 'Segoe UI', sans-serif;
-}
-
-body{
-    min-height:100vh;
-    background: linear-gradient(135deg,#ffd6e7,#ffeaea);
-    overflow-x:hidden;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    padding:20px;
-}
-
-.card{
-    position:relative;
-    background:white;
-    max-width:750px;
-    width:100%;
-    padding:40px;
-    border-radius:30px;
-    text-align:center;
-    box-shadow:0 15px 40px rgba(0,0,0,.15);
-    z-index:2;
-}
-
-h1{
-    color:#d6336c;
-    margin-bottom:20px;
-}
-
-p{
-    line-height:1.8;
-    color:#444;
-    margin:12px 0;
-}
-
-.photo{
-    width:220px;
-    height:220px;
-    margin:0 auto 25px;
-    border-radius:50%;
-    overflow:hidden;
-    border:6px solid #ffb3c6;
-}
-
-.photo img{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-}
-
-button{
-    background:#d6336c;
-    color:white;
-    border:none;
-    padding:15px 28px;
-    border-radius:30px;
-    font-size:1rem;
-    cursor:pointer;
-    margin-top:20px;
-    transition:.3s;
-}
-
-button:hover{
-    transform:scale(1.05);
-}
-
-#invitacion,
-#respuesta{
-    display:none;
-    margin-top:25px;
-    padding:25px;
-    border-radius:20px;
-    background:#fff5f8;
-}
-
-.fecha{
-    font-size:1.4rem;
-    color:#d6336c;
-    font-weight:bold;
-    margin:15px 0;
-}
-
-.corazon{
-    position:fixed;
-    color:#ff4d88;
-    font-size:20px;
-    animation:flotar linear forwards;
-    pointer-events:none;
-}
-
-@keyframes flotar{
-    from{
-        transform:translateY(100vh);
-        opacity:1;
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family:'Segoe UI', sans-serif;
     }
-    to{
-        transform:translateY(-120vh);
-        opacity:0;
-    }
-}
 
-.mensaje-final{
-    font-size:1.3rem;
-    color:#d6336c;
-    font-weight:bold;
-}
+    body{
+        background: linear-gradient(135deg,#ffdde1,#ee9ca7);
+        min-height:100vh;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        padding:20px;
+    }
+
+    .card{
+        background:white;
+        max-width:700px;
+        width:100%;
+        padding:40px;
+        border-radius:25px;
+        box-shadow:0 10px 30px rgba(0,0,0,0.15);
+        text-align:center;
+        animation:fadeIn 1s ease;
+    }
+
+    h1{
+        color:#d6336c;
+        margin-bottom:20px;
+    }
+
+    p{
+        font-size:1.1rem;
+        line-height:1.8;
+        color:#444;
+        margin-bottom:15px;
+    }
+
+    .heart{
+        font-size:3rem;
+        animation:beat 1.5s infinite;
+    }
+
+    button{
+        margin-top:25px;
+        padding:15px 30px;
+        border:none;
+        border-radius:30px;
+        background:#d6336c;
+        color:white;
+        font-size:1rem;
+        cursor:pointer;
+        transition:0.3s;
+    }
+
+    button:hover{
+        transform:scale(1.05);
+        background:#c2255c;
+    }
+
+    #invitacion{
+        display:none;
+        margin-top:30px;
+        padding:25px;
+        border-radius:20px;
+        background:#fff0f5;
+        border:2px dashed #d6336c;
+        animation:fadeIn 1s ease;
+    }
+
+    .fecha{
+        font-size:1.4rem;
+        color:#d6336c;
+        font-weight:bold;
+        margin:15px 0;
+    }
+
+    @keyframes beat{
+        0%,100%{transform:scale(1);}
+        50%{transform:scale(1.15);}
+    }
+
+    @keyframes fadeIn{
+        from{
+            opacity:0;
+            transform:translateY(20px);
+        }
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
 </style>
 </head>
 
@@ -124,128 +106,67 @@ button:hover{
 
 <div class="card">
 
-    <!-- REEMPLAZA foto.jpg por una foto de ustedes -->
-    <div class="photo">
-        <img src="foto.jpg" alt="Nosotros">
-    </div>
+    <div class="heart">❤️</div>
 
-    <h1>Para ti ❤️</h1>
+    <h1>Perdóname</h1>
 
     <p>
-        Amor, quiero pedirte perdón por haberte dicho:
+        Amor, quiero pedirte disculpas por haberte dicho
         <strong>"no me has sacado a bailar"</strong>.
     </p>
 
     <p>
-        Entiendo por qué te hizo sentir mal y lamento mucho que mis palabras
-        hayan sonado como si no valorara todo lo que hemos vivido.
+        Entiendo por qué te hizo sentir mal y lamento que mis palabras
+        hayan podido hacerte pensar que no valoro todo lo demás que haces por mí.
     </p>
 
     <p>
-        La realidad es completamente distinta. Amo nuestra relación porque está
-        llena de aventuras, risas, conversaciones interminables, complicidad y
-        momentos que me hacen sentir profundamente feliz.
+        La verdad es que para mí nuestra relación está llena de momentos
+        hermosos, divertidos y especiales. Me encanta todo lo que compartimos,
+        las aventuras, las conversaciones, las risas y la manera en que me haces
+        sentir querida todos los días.
     </p>
 
     <p>
-        Nunca quise que una frase aislada eclipsara todo lo hermoso que haces
-        por mí y todo lo hermoso que construimos juntos. Eres una de mis
-        personas favoritas en el mundo y me siento muy afortunada de compartir
-        la vida contigo.
-    </p>
-
-    <p>
-        Por eso tengo una propuesta...
+        Jamás quise que una frase aislada opacara todo lo maravilloso que hemos
+        construido juntos. Te admiro, te agradezco y me siento muy feliz de tenerte.
     </p>
 
     <button onclick="mostrarInvitacion()">
-        Ábrela 💌
+        Tengo una propuesta 💃🕺
     </button>
 
     <div id="invitacion">
-        <h2>💃 ¿Me acompañas a bailar? 🕺</h2>
+        <h2>¿Me sacas a bailar? 💕</h2>
+
+        <p>
+            Para compensar mi comentario y porque quiero seguir creando recuerdos
+            hermosos contigo...
+        </p>
 
         <div class="fecha">
             Sábado 4 de julio · 8:00 p.m.
         </div>
 
         <p>
-            Quiero invitarte a Social Club,
+            Te invito a que vayamos juntos a <strong>Social Club</strong>
             en Aguacatala.
         </p>
 
         <p>
-            Porque sí, quiero bailar contigo,
-            pero sobre todo quiero seguir creando
-            recuerdos hermosos a tu lado.
+            Prometo bailar contigo, reírme contigo y recordarte lo mucho que te amo.
+            ❤️
         </p>
 
-        <p>
-            Gracias por todo lo que haces por mí.
-            Te amo muchísimo. ❤️
-        </p>
-
-        <button onclick="aceptar()">
-            Sí, acepto la cita ❤️
-        </button>
+        <h3>¿Aceptas esta cita? 💌</h3>
     </div>
-
-    <div id="respuesta">
-        <p class="mensaje-final">
-            ¡Sabía que dirías que sí! ❤️
-        </p>
-
-        <p>
-            Prepárate porque esa noche pienso
-            bailar contigo, abrazarte mucho y
-            seguir enamorándome de ti.
-        </p>
-    </div>
-
-    <!-- OPCIONAL: pega aquí el enlace de una canción especial -->
-    <!--
-    <audio autoplay loop>
-      <source src="cancion.mp3" type="audio/mpeg">
-    </audio>
-    -->
 
 </div>
 
 <script>
-
 function mostrarInvitacion(){
-    document.getElementById("invitacion").style.display="block";
+    document.getElementById("invitacion").style.display = "block";
 }
-
-function aceptar(){
-    document.getElementById("respuesta").style.display="block";
-
-    for(let i=0;i<80;i++){
-        crearCorazon();
-    }
-}
-
-function crearCorazon(){
-    const heart=document.createElement("div");
-
-    heart.classList.add("corazon");
-    heart.innerHTML="❤️";
-
-    heart.style.left=Math.random()*100+"vw";
-    heart.style.fontSize=(15+Math.random()*30)+"px";
-    heart.style.animationDuration=(3+Math.random()*4)+"s";
-
-    document.body.appendChild(heart);
-
-    setTimeout(()=>{
-        heart.remove();
-    },7000);
-}
-
-setInterval(()=>{
-    crearCorazon();
-},800);
-
 </script>
 
 </body>
